@@ -1,0 +1,34 @@
+﻿using System;
+
+namespace _6TTi_cryptage_BeaujeanNathan
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string phrase = "";
+            int a;
+            int b;
+            string clef = "";
+            string phClaire = "";
+            string[,] mathAffine;
+            string[,] matVigenere;
+
+            Console.WriteLine("va te faire foutre");
+            phrase = Console.ReadLine();
+
+            Console.WriteLine("Donne moi une clef de cryptage");
+            clef = Console.ReadLine();
+
+            for (int iLettres = 0; iLettres < phrase.Length; iLettres++)
+            {
+                if (phrase[iLettres] != ' ')
+                {
+                    phClaire += phrase[iLettres];
+                }
+            }
+
+MethodesDeProjet.CryptVignere(phClaire, clef, out matVigenere);
+        }
+    }
+}

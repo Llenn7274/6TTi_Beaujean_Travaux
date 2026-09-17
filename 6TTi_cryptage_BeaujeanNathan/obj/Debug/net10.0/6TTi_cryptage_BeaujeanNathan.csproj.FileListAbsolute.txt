@@ -1,0 +1,14 @@
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\bin\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.exe
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\bin\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.deps.json
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\bin\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.runtimeconfig.json
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\bin\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.dll
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\bin\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.pdb
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.AssemblyInfoInputs.cache
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.AssemblyInfo.cs
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.csproj.CoreCompileInputs.cache
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.dll
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\refint\6TTi_cryptage_BeaujeanNathan.dll
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.pdb
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\6TTi_cryptage_BeaujeanNathan.genruntimeconfig.cache
+C:\Users\natha\Documents\Ecole\5TTi_cryptage_BeaujeanNathan\obj\Debug\net10.0\ref\6TTi_cryptage_BeaujeanNathan.dll

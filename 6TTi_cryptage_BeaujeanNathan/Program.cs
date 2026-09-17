@@ -1,0 +1,78 @@
+﻿using System;
+
+namespace _6TTi_cryptage_BeaujeanNathan
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string phrase = "";
+            int a;
+            int b;
+            string clef = "";
+            string phClaire = "";
+            string[,] matAffine;
+            string[,] matVigenere;
+
+            Console.WriteLine("Entrez la phrase à chiffrer :");
+            phrase = Console.ReadLine() ?? "";
+
+            Console.WriteLine("Donne moi une clef de cryptage (pour Vigenere) :");
+            clef = Console.ReadLine() ?? "";
+
+            for (int iLettres = 0; iLettres < phrase.Length; iLettres++)
+            {
+                if (phrase[iLettres] != ' ')
+                {
+                    phClaire += phrase[iLettres];
+                }
+            }
+
+            Console.WriteLine("Choisissez le type de cryptage :");
+            Console.WriteLine("1) Vigenere");
+            Console.WriteLine("2) Affine");
+            string choix = Console.ReadLine() ?? "1";
+
+            if (choix == "1")
+            {
+                if (clef.Length == 0) clef = "A";
+                MethodesDeProjet.CryptVignere(phClaire, clef, out matVigenere);
+
+                for (int ligne = 0; ligne < 4; ligne++)
+                {
+                    string ligneConcat = "";
+                    for (int col = 0; col < phClaire.Length; col++)
+                    {
+                        ligneConcat += matVigenere[ligne, col];
+                    }
+                    Console.WriteLine(ligneConcat);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Entrer la valeur entière a (doit être un entier) :");
+                while (!int.TryParse(Console.ReadLine(), out a))
+                {
+                    Console.WriteLine("Valeur invalide. Réessayer pour 'a' :");
+                }
+                Console.WriteLine("Entrer la valeur entière b (doit être un entier) :");
+                while (!int.TryParse(Console.ReadLine(), out b))
+                {
+                    Console.WriteLine("Valeur invalide. Réessayer pour 'b' :");
+                }
+
+                MethodesDeProjet.cryptAffine(phClaire, a, b, out matAffine);
+
+                for (int ligne = 0; ligne < 4; ligne++)
+                {
+                    string ligneConcat = "";
+                    for (int col = 0; col < phClaire.Length; col++)
+                    {
+                        ligneConcat += matAffine[ligne, col];
+                    }
+                    Console.WriteLine(ligneConcat);
+                }
+            }
+        }
+    }
+}

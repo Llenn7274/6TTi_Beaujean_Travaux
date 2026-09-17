@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace _5TTi_cryptage_BeaujeanNathan
+{
+    internal class MethodesDeProjet
+    {
+        public static void CryptVignere(string phClaire, string clef,out string[,] matVigenere)
+        {
+            matVigenere = new string[4, phClaire.Length];
+            int iClef = 0;
+            int codeAscii;
+            for (int iClair = 0; iClair < phClaire.Length; iClair++)
+            {
+                matVigenere[0, iClair] += phClaire[iClair];
+                if (iClef == clef.Length)
+                {
+                    iClef = 0;
+                }
+                matVigenere[1, iClair] += clef[iClef];
+                if ((int)phClaire[iClair]+int.Parse(matVigenere[2,iClef]) <= 90)
+                {
+                    codeAscii = (int)char.Parse(matVigenere[0, iClair]) + int.Parse(matVigenere[2, iClair]);
+                }
+                else
+                {
+                    codeAscii = (int)char.Parse(matVigenere[0,iClair]) + int.Parse(matVigenere[2,iClair])-26)
+                }
+            }
+        }
+    }
+}

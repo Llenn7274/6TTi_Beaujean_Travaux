@@ -1,0 +1,24 @@
+﻿namespace _6TTi_cryptage_BeaujeanNathan
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string phrase = "";
+            int a;
+            int b;
+            string clef = "";
+
+            Console.WriteLine("va te faire foutre");
+            phrase = Console.ReadLine();
+
+            Console.WriteLine("Donne moi une clef de cryptage");
+            clef = Console.ReadLine();
+
+            for (int iLettres=0; iLettres > phrase.Length; iLettres++)
+            {
+
+            }
+        }
+    }
+}

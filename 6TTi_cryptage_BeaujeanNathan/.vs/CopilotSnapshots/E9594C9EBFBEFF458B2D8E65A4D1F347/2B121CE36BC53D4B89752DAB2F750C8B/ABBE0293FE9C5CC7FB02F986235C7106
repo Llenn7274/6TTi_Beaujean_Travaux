@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace _6TTi_cryptage_BeaujeanNathan
+{
+    public class MethodesDeProjet
+    {
+        public static void CryptVignere(string phClaire, string clef, out string[,] matVigenere)
+        {
+            matVigenere = new string[4, phClaire.Length];
+            int iClef = 0;
+            int codeAscii;
+            for (int iClair = 0; iClair < phClaire.Length; iClair++)
+            {
+                matVigenere[0, iClair] = Convert.ToString(phClaire[iClair]);
+                if (iClef == clef.Length)
+                {
+                    iClef = 0;
+                }
+                matVigenere[1, iClair] = Convert.ToString(clef[iClef]);
+                if ((int)phClaire[iClair] + int.Parse(matVigenere[2, iClef]) <= 90)
+                {
+                    codeAscii = (int)char.Parse(matVigenere[0, iClair]) + int.Parse(matVigenere[2, iClair]);
+                }
+                else
+                {
+                    codeAscii = (int)char.Parse(matVigenere[0, iClair]) + int.Parse(matVigenere[2, iClair]) - 26;
+                }
+                iClef += 1;
+            }
+        }
+
+        public static void cryptAffine(string phClaire, int a, int b, out string[,] matAffine)
+        {
+            matAffine = new string[4, phClaire.Length];
+            for (int iClair = 0; iClair < phClaire.Length-1; iClair++)
+            {
+                matAffine[0, iClair] = Convert.ToString(phClaire[iClair]);
+                int x = ((int)phClaire[iClair] - 65);
+                matAffine[1, iClair] = x;
+                int y = (a * x + b) % 26;
+                matAffine[2, iClair] = y;
+                matAffine[3, iClair] = Convert.ToString(y + 65);
+            }
+        }
+    }
+}

@@ -1,0 +1,75 @@
+﻿using System;
+
+namespace _6TTi_cryptage_BeaujeanNathan
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string phrase = string.Empty;
+            string clef = string.Empty;
+
+            Console.WriteLine("Entrez le texte à crypter :");
+            phrase = Console.ReadLine() ?? string.Empty;
+
+            while (string.IsNullOrWhiteSpace(phrase))
+            {
+                Console.WriteLine("Le texte ne peut pas être vide. Réessayez :");
+                phrase = Console.ReadLine() ?? string.Empty;
+            }
+
+            Console.WriteLine("Donnez une clef de cryptage (lettres seulement) :");
+            clef = Console.ReadLine() ?? string.Empty;
+
+            while (string.IsNullOrWhiteSpace(clef))
+            {
+                Console.WriteLine("La clef ne peut pas être vide. Réessayez :");
+                clef = Console.ReadLine() ?? string.Empty;
+            }
+
+            string clefLower = clef.ToLowerInvariant();
+            var result = new System.Text.StringBuilder(phrase.Length);
+            int keyIndex = 0;
+
+            for (int i = 0; i < phrase.Length; i++)
+            {
+                char ch = phrase[i];
+
+                if (char.IsLetter(ch))
+                {
+                    // find next letter in key
+                    int attempts = 0;
+                    while (attempts < clefLower.Length && !char.IsLetter(clefLower[(keyIndex) % clefLower.Length]))
+                    {
+                        keyIndex++;
+                        attempts++;
+                    }
+
+                    char keyChar = clefLower[keyIndex % clefLower.Length];
+                    int shift = (keyChar - 'a') % 26;
+
+                    if (char.IsUpper(ch))
+                    {
+                        char enc = (char)('A' + (ch - 'A' + shift + 26) % 26);
+                        result.Append(enc);
+                    }
+                    else
+                    {
+                        char enc = (char)('a' + (ch - 'a' + shift + 26) % 26);
+                        result.Append(enc);
+                    }
+
+                    keyIndex++;
+                }
+                else
+                {
+                    // preserve non-letter characters
+                    result.Append(ch);
+                }
+            }
+
+            Console.WriteLine("Texte crypté :");
+            Console.WriteLine(result.ToString());
+        }
+    }
+}
