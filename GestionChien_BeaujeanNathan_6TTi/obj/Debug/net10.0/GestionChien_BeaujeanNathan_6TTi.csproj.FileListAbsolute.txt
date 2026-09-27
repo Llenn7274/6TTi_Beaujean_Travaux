@@ -1,0 +1,14 @@
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\bin\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.exe
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\bin\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.deps.json
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\bin\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.runtimeconfig.json
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\bin\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.dll
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\bin\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.pdb
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.AssemblyInfoInputs.cache
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.AssemblyInfo.cs
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.csproj.CoreCompileInputs.cache
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.dll
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\refint\GestionChien_BeaujeanNathan_6TTi.dll
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.pdb
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\GestionChien_BeaujeanNathan_6TTi.genruntimeconfig.cache
+C:\Users\natha\Documents\Ecole\GestionChien_BeaujeanNathan_6TTi\obj\Debug\net10.0\ref\GestionChien_BeaujeanNathan_6TTi.dll

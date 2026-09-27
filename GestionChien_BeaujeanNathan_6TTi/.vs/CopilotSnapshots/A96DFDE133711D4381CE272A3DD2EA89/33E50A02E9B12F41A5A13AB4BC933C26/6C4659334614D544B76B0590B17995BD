@@ -1,0 +1,22 @@
+﻿namespace GestionChien_BeaujeanNathan_6TTi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string nom;
+            string race;
+            int age;
+
+            Console.WriteLine("salut donnes les info de ton clebs");
+            Console.WriteLine("Le nom ?");
+            nom = Console.ReadLine();
+            Console.WriteLine("La race ?");
+            race = Console.ReadLine();
+            Console.WriteLine("L'age?");
+            age = Console.ReadLine();
+
+
+        }
+    }
+}
