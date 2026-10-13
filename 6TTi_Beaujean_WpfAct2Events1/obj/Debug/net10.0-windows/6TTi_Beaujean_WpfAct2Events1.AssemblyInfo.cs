@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6TTi_Beaujean_WpfAct2Events1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+079883211a625535e7270ae93e8aca98257546ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("6TTi_Beaujean_WpfAct2Events1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6TTi_Beaujean_WpfAct2Events1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

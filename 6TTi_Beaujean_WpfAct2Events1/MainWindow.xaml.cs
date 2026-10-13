@@ -86,26 +86,11 @@ namespace _6TTi_Beaujean_WpfAct2Events1
             int.TryParse(txtB.Text, out b);
             int.TryParse(txtC.Text, out c);
 
-            double delta = Math.Pow(b, 2) - 4 * a * c;
-            if (delta < 0)
-            {
-                message = "Il n'y a pas de solution réelle";
+            int somme = a + b + c;
 
-            }
-            else if (delta == 0)
-            {
-                double x1 = -b / (2 * a);
-                message = "Il y a une solution " + x1;
-            }
-            else
-            {
-                double x1 = (-b + Math.Sqrt(delta)) / (2 * a);
-                double x2 = (-b - Math.Sqrt(delta)) / (2 * a);
-                message = "Il y a deux solutions " + x1 + " et " + x2;
-            }
 
-            // Affiche uniquement la somme
-            MessageBox.Show(message.ToString(), "", MessageBoxButton.OK, MessageBoxImage.None);
+            var resultWindow = new ResultWindow(somme.ToString());
+            resultWindow.ShowDialog();
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natha\\Documents\\Ecole\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj": {}
+    "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natha\\Documents\\Ecole\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj": {
+    "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj",
         "projectName": "6TTi_Beaujean_WpfAct2Events1",
-        "projectPath": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj",
+        "projectPath": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_Beaujean_WpfAct2Events1\\6TTi_Beaujean_WpfAct2Events1.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_Beaujean_WpfAct2Events1\\obj\\",
+        "outputPath": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_Beaujean_WpfAct2Events1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

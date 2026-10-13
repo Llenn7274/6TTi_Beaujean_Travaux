@@ -1,0 +1,18 @@
+﻿using System.Windows;
+
+namespace _6TTi_Beaujean_WpfAct2Events1
+{
+    public partial class ResultWindow : Window
+    {
+        public ResultWindow(int somme)
+        {
+            InitializeComponent();
+            txtResult.Text = somme.ToString();
+        }
+
+        private void Ok_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+    }
+}

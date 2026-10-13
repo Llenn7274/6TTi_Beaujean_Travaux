@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\natha\Documents\Ecole\6TTi_Beaujean_WpfAct2Events1\obj\Debug\net10.0-windows\
+C:\Users\natha\Documents\Ecole\exoCalculete\6TTi_Beaujean_WpfAct2Events1\obj\Debug\net10.0-windows\
 _6TTi_Beaujean_WpfAct2Events1
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\natha\Documents\Ecole\6TTi_Beaujean_WpfAct2Events1\App.xaml
-11407045341
+C:\Users\natha\Documents\Ecole\exoCalculete\6TTi_Beaujean_WpfAct2Events1\App.xaml
+21798330669
 
-61004355349
+7-614470045
 206-1840375534
-MainWindow.xaml;
+MainWindow.xaml;ResultWindow.xaml;
 
-True
+False
 
