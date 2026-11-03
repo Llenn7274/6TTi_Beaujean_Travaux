@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace exerciceFacileVehicule_Beaujean_6TTi
+{
+    internal class Vehicule
+    {
+        private string plaque;
+        private string marque;
+        private string modele;
+        private int capaciteMaximumReservoir;
+        private int niveauJaugeCarburant;
+
+        
+    }
+}

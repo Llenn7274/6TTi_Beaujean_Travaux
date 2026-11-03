@@ -1,0 +1,78 @@
+﻿namespace exerciceFacileVehicule_Beaujean_6TTi
+{
+    internal class Vehicule
+    {
+        private string plaque;
+        private string marque;
+        private string modele;
+        private int capaciteMaximumReservoir;
+        private int niveauJaugeCarburant;
+
+        public Vehicule(string plaque, string marque, string modele, int capaciteMaximumReservoir, int niveauJaugeCarburant)
+        {
+            this.plaque = plaque;
+            this.marque = marque;
+            this.modele = modele;
+            this.capaciteMaximumReservoir = capaciteMaximumReservoir;
+            this.niveauJaugeCarburant = Math.Clamp(niveauJaugeCarburant, 0, capaciteMaximumReservoir);
+        }
+
+        public string Plaque
+        {
+            get { return plaque; }
+            set { plaque = value; }
+        }
+
+        public string Marque
+        {
+            get { return marque; }
+        }
+
+        public string Modele
+        {
+            get { return modele; }
+        }
+
+        public int CapaciteMaximumReservoir
+        {
+            get { return capaciteMaximumReservoir; }
+        }
+
+        public int NiveauJaugeCarburant
+        {
+            get { return niveauJaugeCarburant; }
+        }
+
+        public string TypeVehicule()
+        {
+            return marque + " " + modele;
+        }
+
+        public void AjouterCarburant(double nbrCarburant)
+        {
+            if (nbrCarburant < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(nbrCarburant), "La quantité de carburant ne peut pas être négative.");
+            }
+
+            niveauJaugeCarburant = Math.Min(
+                capaciteMaximumReservoir,
+                niveauJaugeCarburant + (int)nbrCarburant);
+        }
+
+        public void FaireLePlein()
+        {
+            niveauJaugeCarburant = capaciteMaximumReservoir;
+        }
+
+        public void ConsommerCarburant(int nbrCarburant)
+        {
+            if (nbrCarburant < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(nbrCarburant), "La quantité de carburant ne peut pas être négative.");
+            }
+
+            niveauJaugeCarburant = Math.Max(0, niveauJaugeCarburant - nbrCarburant);
+        }
+    }
+}

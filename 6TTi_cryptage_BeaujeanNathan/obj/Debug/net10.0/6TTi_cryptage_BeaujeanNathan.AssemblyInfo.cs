@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("6TTi_cryptage_BeaujeanNathan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b2c22eef611ea09448f4e1959e906b49fef66d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("6TTi_cryptage_BeaujeanNathan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("6TTi_cryptage_BeaujeanNathan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

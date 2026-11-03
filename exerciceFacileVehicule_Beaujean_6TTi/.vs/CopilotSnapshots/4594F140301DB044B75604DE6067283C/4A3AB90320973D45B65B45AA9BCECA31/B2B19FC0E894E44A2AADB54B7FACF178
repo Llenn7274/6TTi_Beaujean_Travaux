@@ -1,0 +1,28 @@
+﻿namespace exerciceFacileVehicule_Beaujean_6TTi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Vehicule[] garage =
+            {
+                new Vehicule("1-ABC-123", "Renault", "Clio", 45, 20),
+                new Vehicule("2-DEF-456", "Volkswagen", "Passat", 66, 50)
+            };
+
+            Vehicule voiture = garage[0];
+
+            Console.WriteLine($"Véhicule : {voiture.TypeVehicule()}");
+            Console.WriteLine($"Carburant au départ : {voiture.NiveauJaugeCarburant} litres");
+
+            voiture.AjouterCarburant(10);
+            Console.WriteLine($"Après ajout de carburant : {voiture.NiveauJaugeCarburant} litres");
+
+            voiture.FaireLePlein();
+            Console.WriteLine($"Après avoir fait le plein : {voiture.NiveauJaugeCarburant} litres");
+
+            int carburantConsomme = 15;
+            voiture.AjouterCarburant(-carburantConsomme);
+        }
+    }
+}

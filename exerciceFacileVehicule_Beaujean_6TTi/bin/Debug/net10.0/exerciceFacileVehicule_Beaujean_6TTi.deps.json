@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "exerciceFacileVehicule_Beaujean_6TTi/1.0.0": {
+        "runtime": {
+          "exerciceFacileVehicule_Beaujean_6TTi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "exerciceFacileVehicule_Beaujean_6TTi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

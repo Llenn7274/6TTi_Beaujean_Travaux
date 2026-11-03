@@ -1,0 +1,34 @@
+﻿using System.Diagnostics;
+
+namespace exerciceFacileVehicule_Beaujean_6TTi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string plaque;
+            string marque;
+            string modele;
+            int capaciteMaximumReservoir;
+            int NiveauJaugeCarburant;
+
+            for (int iVoiture = 0;iVoiture < garage.Length; iVoiture++)
+            {
+                Console.WriteLine("Donne la plaque du véhicule");
+                plaque = Console.ReadLine();
+
+                 = LireEntier("Entrez l'âge du chien :");
+
+                Console.WriteLine("Entrez la race du chien  :");
+                race = Console.ReadLine();
+
+                poids = LireEntier("Entrez le poids du chien :");
+
+                Chien chien = new Chien(nom, age, race, poids);
+
+                chien.AfficheCaracteristiques();
+
+            }
+        }
+    }
+}

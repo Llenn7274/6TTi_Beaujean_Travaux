@@ -1,0 +1,74 @@
+﻿namespace exerciceFacileVehicule_Beaujean_6TTi
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Vehicule[] garage =
+            {
+                new Vehicule("1-ABC-123", "Renault", "Clio", 45, 20),
+                new Vehicule("2-DEF-456", "Volkswagen", "Passat", 66, 50)
+            };
+
+            Vehicule voiture = garage[0];
+
+            Console.WriteLine("Véhicule : " + voiture.TypeVehicule());
+            AfficherCarburant(voiture);
+
+            string choix;
+
+            do
+            {
+           
+                Console.WriteLine("1 - Consommer du carburant");
+                Console.WriteLine("2 - Ajouter du carburant");
+                Console.WriteLine("3 - Faire le plein");
+                Console.WriteLine("0 - Quitter");
+                Console.Write("Votre choix : ");
+                choix = Console.ReadLine() ?? "0";
+
+                if (choix == "1")
+                {
+                    LireEntier("Combien de litres voulez-vous consommer ?", out int carburantConsomme);
+                    voiture.ConsommerCarburant(carburantConsomme);
+                    AfficherCarburant(voiture);
+                }
+                else if (choix == "2")
+                {
+                    LireDouble("Combien de litres voulez-vous ajouter ?", out double carburantAjoute);
+                    voiture.AjouterCarburant(carburantAjoute);
+                    AfficherCarburant(voiture);
+                }
+                else if (choix == "3")
+                {
+                    voiture.FaireLePlein();
+                    Console.WriteLine("Le plein a été fait.");
+                    AfficherCarburant(voiture);
+                }
+            } while (choix != "0");
+        }
+
+        static void AfficherCarburant(Vehicule voiture)
+        {
+            Console.WriteLine("Niveau de carburant : " + voiture.NiveauJaugeCarburant + " litres sur " + voiture.CapaciteMaximumReservoir + " litres");
+        }
+
+        public static void LireEntier(string question, out int resultat)
+        {
+            do
+            {
+                Console.WriteLine(question);
+            }
+            while (!int.TryParse(Console.ReadLine(), out resultat));
+        }
+
+        public static void LireDouble(string question, out double resultat)
+        {
+            do
+            {
+                Console.WriteLine(question);
+            }
+            while (!double.TryParse(Console.ReadLine(), out resultat));
+        }
+    }
+}

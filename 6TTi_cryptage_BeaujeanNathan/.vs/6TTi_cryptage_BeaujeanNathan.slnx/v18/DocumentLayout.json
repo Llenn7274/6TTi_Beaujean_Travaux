@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_cryptage_BeaujeanNathan\\",
+  "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_cryptage_BeaujeanNathan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41EBA86F-65E2-8BC8-36A4-F8369771A8D6}|6TTi_cryptage_BeaujeanNathan.csproj|c:\\users\\natha\\documents\\ecole\\6tti_cryptage_beaujeannathan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41EBA86F-65E2-8BC8-36A4-F8369771A8D6}|6TTi_cryptage_BeaujeanNathan.csproj|c:\\users\\natha\\documents\\ecole\\exocalculete\\6tti_cryptage_beaujeannathan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41EBA86F-65E2-8BC8-36A4-F8369771A8D6}|6TTi_cryptage_BeaujeanNathan.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41EBA86F-65E2-8BC8-36A4-F8369771A8D6}|6TTi_cryptage_BeaujeanNathan.csproj|c:\\users\\natha\\documents\\ecole\\6tti_cryptage_beaujeannathan\\methodesdeprojet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41EBA86F-65E2-8BC8-36A4-F8369771A8D6}|6TTi_cryptage_BeaujeanNathan.csproj|c:\\users\\natha\\documents\\ecole\\exocalculete\\6tti_cryptage_beaujeannathan\\methodesdeprojet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41EBA86F-65E2-8BC8-36A4-F8369771A8D6}|6TTi_cryptage_BeaujeanNathan.csproj|solutionrelative:methodesdeprojet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,24 +24,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MethodesDeProjet.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_cryptage_BeaujeanNathan\\MethodesDeProjet.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_cryptage_BeaujeanNathan\\MethodesDeProjet.cs",
               "RelativeDocumentMoniker": "MethodesDeProjet.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_cryptage_BeaujeanNathan\\MethodesDeProjet.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_cryptage_BeaujeanNathan\\MethodesDeProjet.cs",
               "RelativeToolTip": "MethodesDeProjet.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-14T08:41:49.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-14T08:41:49.707Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_cryptage_BeaujeanNathan\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_cryptage_BeaujeanNathan\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\Ecole\\6TTi_cryptage_BeaujeanNathan\\Program.cs",
+              "ToolTip": "C:\\Users\\natha\\Documents\\Ecole\\exoCalculete\\6TTi_cryptage_BeaujeanNathan\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAADgvxgAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T09:06:34.844Z",
               "EditorCaption": ""
