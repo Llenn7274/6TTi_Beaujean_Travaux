@@ -1,0 +1,84 @@
+﻿using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace creationDynamiqueEx1_BeaujeanNathan_6TTi
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            PrepareInterface();
+        }
+        public void PrepareInterface()
+        {
+            ColumnDefinition[] colDef = new ColumnDefinition[3];
+            
+            RowDefinition[] rowDef = new RowDefinition[3];
+            
+            for (int i = 0; i < 3; i++)
+            {
+                colDef[i] = new ColumnDefinition();
+                rowDef[i] = new RowDefinition();
+                mainGrid.ColumnDefinitions.Add(new ColumnDefinition());
+                mainGrid.RowDefinitions.Add(new RowDefinition());
+            }
+
+
+
+            TextBlock txtBMonTexte = new TextBlock();
+            txtBMonTexte.Text = "TextBlock créé dynamiquement";
+            txtBMonTexte.Background = Brushes.LightBlue;
+            Grid.SetRow(txtBMonTexte, 0);
+            Grid.SetColumnSpan(txtBMonTexte, 3);
+            
+            mainGrid.Children.Add(txtBMonTexte);
+
+            Border fondLigne1 = new Border();
+            fondLigne1.Background = Brushes.Pink;
+            Grid.SetRow(fondLigne1, 1);
+            Grid.SetColumnSpan(fondLigne1, 3);
+            mainGrid.Children.Add(fondLigne1);
+
+            for (int colonne = 0; colonne < 3; colonne++)
+            {
+                Button btnMonBouton = new Button();
+                btnMonBouton.Content = "Bouton";
+                btnMonBouton.Width = 80;
+                btnMonBouton.Height = 80;
+                Grid.SetRow(btnMonBouton, 1);
+                Grid.SetColumn(btnMonBouton, colonne);
+                mainGrid.Children.Add(btnMonBouton);
+            }
+
+            StackPanel StackPanel = new StackPanel();
+            Grid.SetRow(StackPanel, 2);
+            Grid.SetColumnSpan(StackPanel, 2);
+            mainGrid.Children.Add(StackPanel);
+
+            TextBlock txtBMonTexte2 = new TextBlock();
+            txtBMonTexte2.Text = "Info";
+            StackPanel.Children.Add(txtBMonTexte2);
+
+            TextBox txtBMonTexte3 = new TextBox();
+            txtBMonTexte3.Text = "j'attends vos infos";
+            StackPanel.Children.Add(txtBMonTexte3);
+
+            ComboBox ComboBox = new ComboBox();
+            Grid.SetRow(ComboBox, 2);
+            Grid.SetColumn(ComboBox, 2);
+            mainGrid.Children.Add(ComboBox);
+        }
+    }
+}
