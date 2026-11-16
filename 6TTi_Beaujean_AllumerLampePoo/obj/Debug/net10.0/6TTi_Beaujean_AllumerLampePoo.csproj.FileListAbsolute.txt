@@ -1,0 +1,15 @@
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\bin\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.exe
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\bin\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.deps.json
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\bin\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.runtimeconfig.json
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\bin\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.dll
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\bin\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.pdb
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.AssemblyInfoInputs.cache
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.AssemblyInfo.cs
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.csproj.CoreCompileInputs.cache
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.dll
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\refint\6TTi_Beaujean_AllumerLampePoo.dll
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.pdb
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Beaujean_AllumerLampePoo.genruntimeconfig.cache
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\ref\6TTi_Beaujean_AllumerLampePoo.dll
+C:\Users\natha\Documents\Ecole\6TTi_Beaujean_AllumerLampePoo\obj\Debug\net10.0\6TTi_Bea.B545C4D6.Up2Date
